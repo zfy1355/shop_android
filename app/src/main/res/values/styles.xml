@@ -358,7 +358,7 @@
         <item name="android:spacing">1dip</item>
         <item name="android:unselectedAlpha">1</item>
     </style>
-
+    
     <style name="mSrollView" >
         <item name="android:fadingEdge">none</item>
         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
@@ -369,19 +369,19 @@
     <style name="customScrollView" parent="@android:style/Widget.ScrollView">
         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
     </style>
-
+	
     <style name="customListView" parent="@android:style/Widget.ListView">
         <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_vertical</item>
         <item name="android:fadingEdge">none</item>
         <item name="android:cacheColorHint">@android:color/transparent</item>
         <item name="android:listSelector">@drawable/home_itme_selector</item>
     </style>
-
+    
     <style name="Default" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowTitleSize">40.0dip</item>
         <item name="android:windowNoTitle">false</item>
-        <item name="android:listViewStyle">@style/customListView</item>
+         <item name="android:listViewStyle">@style/customListView</item>  
         <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
     </style>
 
