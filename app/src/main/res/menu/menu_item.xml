@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.home.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/menu_home"
+        android:title="主页"></item>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/menu_more"
+        android:title="关于"></item>
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/menu_exit"
+        android:title="退出"></item>
+</menu>
